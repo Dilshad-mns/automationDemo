@@ -8,5 +8,8 @@ package automation.demo;
 public interface Car{
 	public void startEngine();
 	public int acceleration();
+//	default void onHeadLights() {
+//		System.out.println("the eye blinding light");
+//	}
 }
 
